@@ -1,0 +1,11 @@
+{% extends 'home/base.html' %}
+
+
+    {% block content %}
+  
+    <br> 
+
+   <h1 style="text-align: center"> Su mensaje ha sido enviado</h1>
+   <a style="text-align: center" href="{% url 'home:index' %}">Volver a inicio</a>
+    {% endblock content%}
+    {% include 'home/footer.html' %}
